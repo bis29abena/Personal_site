@@ -27,7 +27,7 @@ function Speech() {
           repeat={Infinity}
         />
       </div>
-      <img src={`${import.meta.env.BASE_URL}images/man.png`} alt="man" srcset="" />
+      <img src={`/Personal_site/images/man.png`} alt="man" srcset="" />
     </motion.div>
   );
 }

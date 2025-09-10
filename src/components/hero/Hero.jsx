@@ -55,17 +55,17 @@ export const Hero = () => {
           <motion.div variants={awardVariance} className="awardList">
             <motion.img
               variants={awardVariance}
-              src={`${import.meta.env.BASE_URL}/images/award1.png`}
+              src={`/Personal_site/images/award1.png`}
               alt="award1"
             />
             <motion.img
               variants={awardVariance}
-              src={`${import.meta.env.BASE_URL}/images/award2.png`}
+              src={`/Personal_site/images/award2.png`}
               alt="award2"
             />
             <motion.img
               variants={awardVariance}
-              src={`${import.meta.env.BASE_URL}/images/award3.png`}
+              src={`/Personal_site/images/award3.png`}
               alt="award3"
             />
           </motion.div>
@@ -122,16 +122,16 @@ export const Hero = () => {
             variants={followVariance}
             href="https://www.instagram.com/bismark_29/"
           >
-            <img src={`${import.meta.env.BASE_URL}images/instagram.png`} alt="instagram" />
+            <img src={`/Personal_site/images/instagram.png`} alt="instagram" />
           </motion.a>
           <motion.a
             variants={followVariance}
             href="https://github.com/bis29abena"
           >
-            <img src={`${import.meta.env.BASE_URL}images/github.jpg`} alt="github" />
+            <img src={`/Personal_site/images/github.jpg`} alt="github" />
           </motion.a>
           <motion.a variants={followVariance} href="https://web.facebook.com/">
-            <img src={`${import.meta.env.BASE_URL}images/facebook.png`} alt="facebook" />
+            <img src={`/Personal_site/images/facebook.png`} alt="facebook" />
           </motion.a>
           <motion.div variants={followVariance} className="followTextContainer">
             <motion.div variants={followVariance} className="followText">
@@ -147,7 +147,7 @@ export const Hero = () => {
           transition={{ duration: 1 }}
           className="certificate"
         >
-          <img src={`${import.meta.env.BASE_URL}images/certificate.png`} alt="certificate" />
+          <img src={`/Personal_site/images/certificate.png`} alt="certificate" />
           CDA Certified <br />
           PROFESSIONAL <br />
           BACKEND DEVELOPER <br />
@@ -205,7 +205,7 @@ export const Hero = () => {
           </Suspense>
         </Canvas>
         <div className="himg">
-          <img src={`${import.meta.env.BASE_URL}images/hero.png`} alt="" />
+          <img src={`/Personal_site/images/hero.png`} alt="" />
         </div>
       </div>
     </div>
