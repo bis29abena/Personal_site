@@ -6,19 +6,19 @@ import { useRef, useState } from "react";
 const services = [
   {
     id: 1,
-    img: "/service1.png",
+    img: "/images/service1.png",
     title: "Web Development",
     counter: 35,
   },
   {
     id: 2,
-    img: "/service2.png",
+    img: "/images/service2.png",
     title: "Solution Architecture",
     counter: 60,
   },
   {
     id: 3,
-    img: "/service3.png",
+    img: "/images/service3.png",
     title: "Machine Learning",
     counter: 96,
   },
@@ -115,21 +115,21 @@ export const Services = () => {
           <motion.img
             variants={serviceImageVariant}
             animate={IsinView ? "animate" : "initial"}
-            src="/laptop-Photoroom.png"
+            src="/images/laptop-Photoroom.png"
             alt="laptop"
           />
         ) : currentServiceId === 2 ? (
           <motion.img
             variants={serviceImageVariant}
             animate={IsinView ? "animate" : "initial"}
-            src="/solutions-Photoroom.png"
+            src="/images/solutions-Photoroom.png"
             alt="laptop"
           />
         ) : (
           <motion.img
             variants={serviceImageVariant}
             animate={IsinView ? "animate" : "initial"}
-            src="/roboot-Photoroom.png"
+            src="/images/roboot-Photoroom.png"
             alt="laptop"
           />
         )}

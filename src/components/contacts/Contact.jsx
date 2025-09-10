@@ -52,7 +52,7 @@ export const Contact = () => {
   };
 
   const previewCV = () => {
-    window.open("/cv.pdf", "_blank", "noopener,noreferrer");
+    window.open("/images/cv.pdf", "_blank", "noopener,noreferrer");
   };
 
   return (

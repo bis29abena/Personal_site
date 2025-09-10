@@ -55,17 +55,17 @@ export const Hero = () => {
           <motion.div variants={awardVariance} className="awardList">
             <motion.img
               variants={awardVariance}
-              src="/award1.png"
+              src="/images/award1.png"
               alt="award1"
             />
             <motion.img
               variants={awardVariance}
-              src="/award2.png"
+              src="/images/award2.png"
               alt="award2"
             />
             <motion.img
               variants={awardVariance}
-              src="/award3.png"
+              src="/images/award3.png"
               alt="award3"
             />
           </motion.div>
@@ -130,10 +130,7 @@ export const Hero = () => {
           >
             <img src="/github.jpg" alt="github" />
           </motion.a>
-          <motion.a
-            variants={followVariance}
-            href="https://web.facebook.com/"
-          >
+          <motion.a variants={followVariance} href="https://web.facebook.com/">
             <img src="/facebook.png" alt="facebook" />
           </motion.a>
           <motion.div variants={followVariance} className="followTextContainer">
@@ -208,7 +205,7 @@ export const Hero = () => {
           </Suspense>
         </Canvas>
         <div className="himg">
-          <img src="/hero.png" alt="" />
+          <img src="/images/hero.png" alt="" />
         </div>
       </div>
     </div>
